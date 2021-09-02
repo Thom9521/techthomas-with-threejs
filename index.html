@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/tukkaLogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechThomas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Fontawesome-->
+    <script defer src="/node_modules/@fortawesome/fontawesome-free"></script>
+    <script defer src="/node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="/node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+  </head>
+  <body>
+
+    <canvas id="bg"></canvas>   
+
+    <main>
+
+      <header>
+        <h1>Thomas Christensen</h1>
+        <p>Webudvikler
+          <i class="fas fa-award"></i>
+        </p>
+      </header>
+
+
+      <blockquote>
+        <p>Fullstack webudvikler som brænder for at skabe applikationer til web og mobil</p>
+      </blockquote>
+
+      <section>
+        <h2>Værktøjer <i class="fas fa-hammer"></i></h2>
+        <p>
+          I gennem min tid som udvikler har jeg stødt på mange værktøjer, men mine stærkeste sider ligger inden for:
+          <ul>
+            <li>Frontend</li>
+            <ul>
+              <li>React</li>
+              <li>React Native</li>
+            </ul>
+            <li>Backend</li>
+            <ul>
+              <li>Nodejs</li>
+              <li>PHP</li>
+            </ul>
+            <li>Database</li>
+            <ul>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+            </ul>
+            <li>API</li>
+            <ul>
+              <li>REST</li>
+              <li>GraphQL</li>
+            </ul>
+            <li>Systemudvikling</li>
+            <ul>
+              <li>Scrum</li>
+            </ul>
+          </ul>
+        </p>
+
+        <p>
+          Derudover har jeg arbejdet meget med Unity til spiludvikling i min fritid  <i class="fas fa-gamepad"></i>
+        </p>
+
+      </section>
+
+      <section class="light left">
+        <h2>Projekter <i class="fas fa-desktop"></i></h2>
+        <h3>Mit Holder 100</h3>
+        <p>
+          Bachelorprojekt bygget op som en web app med React, PHP, MySQL og WordPress. 
+        </p>
+        <div id="carouselExampleControls" class="carousel slide w-75" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="assets/mitholder100_1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/mitholder100_2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/mitholder100_3.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- <h3>Top Scooter Nordic</h3>
+        <p>
+          Datamatiker hovedopgave bygget op som en web app med MERN-stack (MongoDB, Express, React, Nodejs) + GraphQL.
+        </p> -->
+
+        <h3 class="mt-5">Trækunst</h3>
+        <p>Web app for Trækunst.dk bygget op med React og PHP. Se den live <a href="http://traekunst.dk" target="_blank">her</a></p>
+
+      </section>
+
+
+      <section>
+        <h2>Arbejdserfaring <i class="fas fa-briefcase"></i></h2>
+
+        <h3>Holder 100 ApS</h3>
+        <i>nov. 2020 - juni 2021</i>
+        <p>
+          Web- og systemudvikling. Med teknologier som React, PHP, WordPress og MySQL var jeg med til at udvikle web apps for diverse kunder.        </p>
+        <h3>Supeo Aps</h3>
+        <i>jul 2019 - nov 2019</i>
+        <p>
+          Web- og systemudvikling. Med teknologier som React, Node, Express, MongoDB, GraphQL, Apollo, PHP og MySQL var jeg med til at udvikle web apps for diverse kunder.        </p>
+  
+
+      </section>
+
+      <section class="left contactSection">
+        <h2>Kontakt <i class="fas fa-mobile-alt"></i></h2>
+        <p>Lyder jeg interasant så kan du finde mig her:</p>
+        <div class="row">
+          <div class="col">
+            <a class="contactIcon" href="mailto:thomas96mc@gmail.com" target="_blank"><i class="fas fa-envelope fontawesomeStyles"></i></a>
+          </div>
+          <div class="col">
+            <a class="contactIcon" href="https://www.linkedin.com/in/thomas-christensen-96432b166/" target="_blank"><i class="fab fa-linkedin fontawesomeStyles"></i></a>
+          </div>
+          <div class="col">
+            <a class="contactIcon" href="https://github.com/thom9521" target="_blank"><i class="fab fa-github-square fontawesomeStyles"></i></a>
+          </div>
+        </div>
+
+
+      </section>
+
+
+
+    </main>
+    
+    <script type="module" src="/main.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
